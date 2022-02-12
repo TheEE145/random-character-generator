@@ -1,4 +1,4 @@
-const rnd = () => { return Math.round(Math.random(1)) },
+const rnd = () => { return Math.round(Math.random()) },
 	random = (min, max) => { return Math.floor(Math.random(1) * (max - min)) + min; },
 	lib = {
     	classes: ["человек", "огр", "ельф", "демон", "животное", "дракон", "тень", "ангел", "душа", "фея", "робот"],
