@@ -1,1 +1,2 @@
-# random-character-generator
+# random character generator
+генератор рандомных персонажей.
