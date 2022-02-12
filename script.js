@@ -82,15 +82,15 @@ document.querySelector(".button").addEventListener("click", () => {
        	разум: ${random(0, 10)}/10 <br>
        	уровень магии: ${random(0, 10)}/10 <br>
        	<br>
-       	character.hand.left.isBroken: ${rnd() == 1 ? true : false}<br>
-       	character.hand.right.isBroken: ${rnd() == 1 ? true : false}<br>
-       	character.leg.left.isBroken: ${rnd() == 1 ? true : false}<br>
-       	character.leg.right.isBroken: ${rnd() == 1 ? true : false}<br>
-       	character.eye.left.isBroken: ${rnd() == 1 ? true : false}<br>
-       	character.eye.right.isBroken: ${rnd() == 1 ? true : false}<br>
+       	левая рука сломаная: ${rnd() == 1 ? true : false}<br>
+       	правая рука сломаная: ${rnd() == 1 ? true : false}<br>
+       	левая нога сломаная: ${rnd() == 1 ? true : false}<br>
+       	правая нога сломаная: ${rnd() == 1 ? true : false}<br>
+       	левый глаз сломан: ${rnd() == 1 ? true : false}<br>
+       	правый глаз сломан: ${rnd() == 1 ? true : false}<br>
        	<br>
-       	character.eye['can see']: ${rnd() == 1 ? true : false}<br>
-       	character.ear['can hear']: ${rnd() == 1 ? true : false}
+       	слепой: ${rnd() == 1 ? true : false}<br>
+       	глухой: ${rnd() == 1 ? true : false}
     `;
 
     delete(clrText, character, eyeColor);
