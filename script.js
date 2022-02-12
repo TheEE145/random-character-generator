@@ -74,7 +74,7 @@ document.querySelector(".button").addEventListener("click", () => {
        	${character.isOld && character.hasBread ? `цвет бороды: ${clrText} <br>` : ''}
        	имеет друзей: ${rnd() == 1 ? "да" : "нет"} <br>
        	цвет глаз: ${eyeColor} <br>
-       	рост: ${character.height != 0 ? `${character.height} метров` : 'невозможно обчислить'} <br>
+       	рост: ${character.class != "животное" && character.class != "робот" ? `${character.height} метров` : 'невозможно обчислить'} <br>
        	сила: ${random(0, 10)}/10 <br>
        	маневриность: ${random(0, 10)}/10 <br>
        	баланс: ${random(0, 10)}/10 <br>
