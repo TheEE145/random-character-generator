@@ -1,0 +1,49 @@
+body {
+	text-align: center;
+	background-color: rgb(23, 23, 23);
+	padding: 0 10% 0;
+	margin: 0;
+}
+
+content {
+	background-color: rgb(255, 255, 255) !important;
+	margin: 0;
+	padding: 0;
+	display: block;
+	height: 100%;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+div[data-info="true"] {
+	text-align: left;
+	width: 25%;
+	margin: 0 auto 0;
+}
+
+input[type="text"] {
+	width: 205px;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		padding: 0;
+	}
+
+	div[data-info="true"] {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	body {
+		text-align: left;
+	}
+
+	div[data-info="true"] {
+		width: 100%;
+		margin: 0;
+	}
+}
